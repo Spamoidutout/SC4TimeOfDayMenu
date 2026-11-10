@@ -14,6 +14,17 @@ Download `SC4TimeOfDayMenu-1.0.zip` from the
 `SC4TimeOfDayMenu.dll` and `SC4TimeOfDayMenu.dat` into the root of
 `Documents\SimCity 4\Plugins`. Requires SimCity 4 1.1.641 for Windows.
 
+## SC4 Time Of Day Menu or SC4 Time Control?
+
+- **SC4 Time Of Day Menu** (this one) is the lightweight one: right-click,
+  pick an hour, done.
+- **[SC4 Time Control](https://github.com/Spamoidutout/SC4TimeControl)** is the
+  more advanced version: it also shows the time next to the date, sets the
+  speed of the day/night cycle (Pause, 1/2 to x8) and has settings (default
+  speed).
+
+Install one or the other, **not both**: they use the same button.
+
 ## How it works
 
 - Subscribes once, in `PostAppInit`, to the mouse message `0xFA0C6390`.
